@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Information</h1>
+    </header>
+    <main>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Full name:</strong> <span id="name">Ngoc-Giau Pham</span></p>
+            <p><strong>Birthdate:</strong> <span id="dob">October 23 1989</span></p>
+            <p><strong>Email:</strong> <span id="email">phamngocgiau@tgu.edu.vn</span></p>
+            <button id="edit-info-btn">Edit</button>
+        </section>
+
+        <section id="subjects">
+            <h2>Subjects</h2>
+            <ul id="subject-list">
+                <li>Advanced Software Technology</li>
+                <li>Advanced Database</li>
+                <li>Social Network Analysis</li>
+                <li>Scientific Research Methods</li>
+                <li>Information Safety and Security</li>
+            </ul>
+            <input type="text" id="new-subject" placeholder="Thêm môn học mới">
+            <button id="add-subject-btn">Add a subject</button>
+        </section>
+
+        <section id="articles">
+            <h2>Read article</h2>
+            <ul id="article-list">
+                <li><a href="https://example.com/article1" target="_blank">Paper 1</a></li>
+                <li><a href="https://example.com/article2" target="_blank">Paper 2</a></li>
+                <li><a href="https://example.com/article3" target="_blank">Paper 3</a></li>
+            </ul>
+            <input type="file" id="upload-article" accept=".pdf">
+            <button id="upload-article-btn">Upload a paper</button>
+        </section>
+
+        <section id="comments">
+            <h2>Comments</h2>
+            <ul id="comment-list">
+                <!-- Các bình luận sẽ được thêm vào đây -->
+            </ul>
+            <textarea id="new-comment" placeholder="Viết bình luận..."></textarea>
+            <button id="add-comment-btn">Add a comment</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ngoc-Giau Pham</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
